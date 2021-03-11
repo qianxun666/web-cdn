@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{576:function(t,n,e){"use strict";e.r(n);var c={layout:"default",data:function(){return{}}},l=e(23),component=Object(l.a)(c,(function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("nuxt-child")],1)}),[],!1,null,"732facca",null);n.default=component.exports}}]);
