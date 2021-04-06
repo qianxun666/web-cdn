@@ -1,4 +1,4 @@
-exports.ids = [18,4,7];
+exports.ids = [19,4,7];
 exports.modules = {
 
 /***/ 216:
@@ -957,7 +957,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 237:
+/***/ 238:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1020,12 +1020,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/search/_keyword/_page.vue?vue&type=template&id=f8636886&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"search py-2\" data-v-f8636886>","</div>",[_c('search-tool',{staticClass:"px-md-10",attrs:{"text":"搜索一下","height":50,"keyword":_vm.keyword}})],1),_vm._ssrNode(" "),_c('v-divider',{staticClass:"primary main-divider"}),_vm._ssrNode(" "),(!_vm.songs || _vm.songs.length == 0)?_vm._ssrNode("<div data-v-f8636886>","</div>",[_vm._ssrNode("<div class=\"d-flex justify-center\" data-v-f8636886>\n      什么也没找到，换个词试试吧\n    </div>")],2):_vm._ssrNode("<div data-v-f8636886>","</div>",[_c('v-simple-table',{scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('thead',[_c('tr',[_c('th',{staticClass:"text-left"},[_vm._v("\n              序号\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              歌名\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              歌手\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              时长\n            ")])])]),_vm._v(" "),_c('tbody',_vm._l((_vm.songs),function(item,i){return _c('tr',{key:item.songId,class:{ 'grey lighten-4': (i % 2) === 0},on:{"click":function($event){return _vm.openSong(item.songId)}}},[_c('td',[_vm._v(_vm._s(_vm.limit * ( _vm.page - 1) + i + 1))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.songName))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.singerName))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.audioLength))])])}),0)]},proxy:true}])}),_vm._ssrNode(" "),_c('q-pagination',{attrs:{"length":_vm.total,"fmt":_vm.fmt},model:{value:(_vm.page),callback:function ($$v) {_vm.page=$$v},expression:"page"}})],2),_vm._ssrNode(" "),_c('float-button-group')],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/search/_keyword/_page.vue?vue&type=template&id=7fa4b5e5&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"search py-2\" data-v-7fa4b5e5>","</div>",[_c('search-tool',{staticClass:"px-md-10",attrs:{"text":"搜索一下","height":50,"keyword":_vm.keyword}})],1),_vm._ssrNode(" "),_c('v-divider',{staticClass:"primary main-divider"}),_vm._ssrNode(" "),(!_vm.songs || _vm.songs.length == 0)?_vm._ssrNode("<div data-v-7fa4b5e5>","</div>",[_vm._ssrNode("<div class=\"d-flex justify-center\" data-v-7fa4b5e5>\n      什么也没找到，换个词试试吧\n    </div>")],2):_vm._ssrNode("<div data-v-7fa4b5e5>","</div>",[_c('v-simple-table',{scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('thead',[_c('tr',[_c('th',{staticClass:"text-left"},[_vm._v("\n              序号\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              歌名\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              歌手\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              下载次数\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n              时长\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-center"},[_vm._v("\n              试听\n            ")]),_vm._v(" "),_c('th',{staticClass:"text-center"},[_vm._v("\n              下载\n            ")])])]),_vm._v(" "),_c('tbody',_vm._l((_vm.songs),function(item,i){return _c('tr',{key:item.songId,class:{ 'grey lighten-4': (i % 2) === 0},on:{"click":function($event){return _vm.openSong(item.songId)}}},[_c('td',[_vm._v(_vm._s(_vm.limit * ( _vm.page - 1) + i + 1))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.songName))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.singerName))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.downloadTimes))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.audioLength))]),_vm._v(" "),_c('td',{staticClass:"text-center"},[_c('v-btn',{attrs:{"small":"","dark":"","block":"","color":"indigo","to":("/song/" + (item.songId)),"target":"_blank"}},[_c('v-icon',[_vm._v("\n                  mdi-headphones\n                ")])],1)],1),_vm._v(" "),_c('td',{staticClass:"text-center"},[_c('v-btn',{attrs:{"small":"","dark":"","block":"","color":"indigo","to":("/song/" + (item.songId)),"target":"_blank"}},[_c('v-icon',[_vm._v("\n                  mdi-download\n                ")])],1)],1)])}),0)]},proxy:true}])}),_vm._ssrNode(" "),_c('q-pagination',{attrs:{"length":_vm.total,"fmt":_vm.fmt},model:{value:(_vm.page),callback:function ($$v) {_vm.page=$$v},expression:"page"}})],2),_vm._ssrNode(" "),_c('float-button-group')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/search/_keyword/_page.vue?vue&type=template&id=f8636886&scoped=true&
+// CONCATENATED MODULE: ./pages/search/_keyword/_page.vue?vue&type=template&id=7fa4b5e5&scoped=true&
 
 // EXTERNAL MODULE: ./components/SearchTool/index.vue + 4 modules
 var SearchTool = __webpack_require__(55);
@@ -1037,6 +1037,44 @@ var QPagination = __webpack_require__(227);
 var FloatButtonGroup = __webpack_require__(217);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/search/_keyword/_page.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1164,11 +1202,17 @@ var componentNormalizer = __webpack_require__(8);
 var installComponents = __webpack_require__(13);
 var installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);
 
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBtn/VBtn.js + 2 modules
+var VBtn = __webpack_require__(212);
+
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VDivider/VDivider.js
 var VDivider = __webpack_require__(210);
 
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
+var VIcon = __webpack_require__(59);
+
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VDataTable/VSimpleTable.js
-var VSimpleTable = __webpack_require__(237);
+var VSimpleTable = __webpack_require__(238);
 
 // CONCATENATED MODULE: ./pages/search/_keyword/_page.vue
 
@@ -1187,7 +1231,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "f8636886",
+  "7fa4b5e5",
   "2a9b03cd"
   
 )
@@ -1202,7 +1246,9 @@ installComponents_default()(component, {SearchTool: __webpack_require__(55).defa
 
 
 
-installComponents_default()(component, {VDivider: VDivider["a" /* default */],VSimpleTable: VSimpleTable["a" /* default */]})
+
+
+installComponents_default()(component, {VBtn: VBtn["a" /* default */],VDivider: VDivider["a" /* default */],VIcon: VIcon["a" /* default */],VSimpleTable: VSimpleTable["a" /* default */]})
 
 
 /***/ })
