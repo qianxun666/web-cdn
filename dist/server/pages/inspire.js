@@ -1,7 +1,7 @@
-exports.ids = [14];
+exports.ids = [18];
 exports.modules = {
 
-/***/ 303:
+/***/ 313:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,14 +19,14 @@ var staticRenderFns = []
 var componentNormalizer = __webpack_require__(8);
 
 // EXTERNAL MODULE: ./node_modules/vuetify-loader/lib/runtime/installComponents.js
-var installComponents = __webpack_require__(13);
+var installComponents = __webpack_require__(12);
 var installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VCol.js
-var VCol = __webpack_require__(209);
+var VCol = __webpack_require__(212);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VRow.js
-var VRow = __webpack_require__(207);
+var VRow = __webpack_require__(210);
 
 // CONCATENATED MODULE: ./pages/inspire.vue
 
