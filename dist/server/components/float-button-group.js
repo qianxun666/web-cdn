@@ -44,7 +44,7 @@ var external_qrcode_ = __webpack_require__(200);
 var external_qrcode_default = /*#__PURE__*/__webpack_require__.n(external_qrcode_);
 
 // EXTERNAL MODULE: ./components/SearchTool/index.vue + 4 modules
-var SearchTool = __webpack_require__(55);
+var SearchTool = __webpack_require__(56);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/FloatButtonGroup/index.vue?vue&type=script&lang=js&
 //
@@ -408,7 +408,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var FloatButtonGroup = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents_default()(component, {SearchTool: __webpack_require__(55).default})
+installComponents_default()(component, {SearchTool: __webpack_require__(56).default})
 
 
 /* vuetify-loader */

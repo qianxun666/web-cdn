@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"components/clock","2":"components/emoticon-box","3":"components/emoticon-textarea","4":"components/float-button-group","5":"components/logo","6":"components/music-player","7":"components/qpagination","8":"components/utils","9":"components/vuetify-logo","10":"pages/_p","11":"pages/category/_id","12":"pages/category/other/_id","13":"pages/doc/disclaimer","14":"pages/doc/privacy-statement","15":"pages/doc/service","16":"pages/doc/upload","17":"pages/findpassword/index","18":"pages/inspire","19":"pages/login/index","20":"pages/message/_p","21":"pages/regist/index","22":"pages/search/_keyword","23":"pages/search/_keyword/_page","24":"pages/search/_keyword/index","25":"pages/search/index","26":"pages/singer/_id","27":"pages/song/_id"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"components/clock","2":"components/emoticon-box","3":"components/emoticon-textarea","4":"components/float-button-group","5":"components/music-player","6":"components/qpagination","7":"components/utils","8":"pages/_p","9":"pages/category/_id","10":"pages/category/other/_id","11":"pages/doc/disclaimer","12":"pages/doc/privacy-statement","13":"pages/doc/service","14":"pages/doc/upload","15":"pages/findpassword/index","16":"pages/login/index","17":"pages/message/_p","18":"pages/regist/index","19":"pages/search/_keyword","20":"pages/search/_keyword/_page","21":"pages/search/_keyword/index","22":"pages/search/index","23":"pages/share/_id","24":"pages/singer/_id","25":"pages/song/_id"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -6974,7 +6974,8 @@ var helpers = __webpack_require__(0);
 module.exports = require("vue-no-ssr");
 
 /***/ }),
-/* 55 */
+/* 55 */,
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7155,7 +7156,6 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCol: VCol
 
 
 /***/ }),
-/* 56 */,
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11311,41 +11311,41 @@ function shouldScrollToTop(route) {
 
 
 
-const _ff50640c = () => interopDefault(__webpack_require__.e(/* import() | pages/findpassword/index */ 17).then(__webpack_require__.bind(null, 292)));
+const _ff50640c = () => interopDefault(__webpack_require__.e(/* import() | pages/findpassword/index */ 15).then(__webpack_require__.bind(null, 290)));
 
-const _ac39ad54 = () => interopDefault(__webpack_require__.e(/* import() | pages/inspire */ 18).then(__webpack_require__.bind(null, 310)));
+const _a7350d06 = () => interopDefault(__webpack_require__.e(/* import() | pages/login/index */ 16).then(__webpack_require__.bind(null, 291)));
 
-const _a7350d06 = () => interopDefault(__webpack_require__.e(/* import() | pages/login/index */ 19).then(__webpack_require__.bind(null, 293)));
+const _73b900d0 = () => interopDefault(__webpack_require__.e(/* import() | pages/regist/index */ 18).then(__webpack_require__.bind(null, 292)));
 
-const _73b900d0 = () => interopDefault(__webpack_require__.e(/* import() | pages/regist/index */ 21).then(__webpack_require__.bind(null, 294)));
+const _b01e63b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/search/index */ 22).then(__webpack_require__.bind(null, 293)));
 
-const _b01e63b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/search/index */ 25).then(__webpack_require__.bind(null, 295)));
+const _97f87f62 = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/disclaimer */ 11).then(__webpack_require__.bind(null, 294)));
 
-const _97f87f62 = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/disclaimer */ 13).then(__webpack_require__.bind(null, 296)));
+const _76352de6 = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/privacy-statement */ 12).then(__webpack_require__.bind(null, 295)));
 
-const _76352de6 = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/privacy-statement */ 14).then(__webpack_require__.bind(null, 297)));
+const _3c53029e = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/service */ 13).then(__webpack_require__.bind(null, 296)));
 
-const _3c53029e = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/service */ 15).then(__webpack_require__.bind(null, 298)));
+const _25bae3b5 = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/upload */ 14).then(__webpack_require__.bind(null, 297)));
 
-const _25bae3b5 = () => interopDefault(__webpack_require__.e(/* import() | pages/doc/upload */ 16).then(__webpack_require__.bind(null, 299)));
+const _a294a648 = () => interopDefault(__webpack_require__.e(/* import() | pages/category/other/_id */ 10).then(__webpack_require__.bind(null, 298)));
 
-const _a294a648 = () => interopDefault(__webpack_require__.e(/* import() | pages/category/other/_id */ 12).then(__webpack_require__.bind(null, 300)));
+const _4c44fb10 = () => interopDefault(__webpack_require__.e(/* import() | pages/category/_id */ 9).then(__webpack_require__.bind(null, 299)));
 
-const _4c44fb10 = () => interopDefault(__webpack_require__.e(/* import() | pages/category/_id */ 11).then(__webpack_require__.bind(null, 301)));
+const _56f27d18 = () => interopDefault(__webpack_require__.e(/* import() | pages/message/_p */ 17).then(__webpack_require__.bind(null, 300)));
 
-const _56f27d18 = () => interopDefault(__webpack_require__.e(/* import() | pages/message/_p */ 20).then(__webpack_require__.bind(null, 302)));
+const _26fa05f4 = () => interopDefault(__webpack_require__.e(/* import() | pages/search/_keyword */ 19).then(__webpack_require__.bind(null, 301)));
 
-const _26fa05f4 = () => interopDefault(__webpack_require__.e(/* import() | pages/search/_keyword */ 22).then(__webpack_require__.bind(null, 303)));
+const _582fc4bc = () => interopDefault(__webpack_require__.e(/* import() | pages/search/_keyword/index */ 21).then(__webpack_require__.bind(null, 302)));
 
-const _582fc4bc = () => interopDefault(__webpack_require__.e(/* import() | pages/search/_keyword/index */ 24).then(__webpack_require__.bind(null, 304)));
+const _7e1ded50 = () => interopDefault(__webpack_require__.e(/* import() | pages/search/_keyword/_page */ 20).then(__webpack_require__.bind(null, 303)));
 
-const _7e1ded50 = () => interopDefault(__webpack_require__.e(/* import() | pages/search/_keyword/_page */ 23).then(__webpack_require__.bind(null, 305)));
+const _b0570922 = () => interopDefault(__webpack_require__.e(/* import() | pages/share/_id */ 23).then(__webpack_require__.bind(null, 289)));
 
-const _84a75a8c = () => interopDefault(__webpack_require__.e(/* import() | pages/singer/_id */ 26).then(__webpack_require__.bind(null, 306)));
+const _84a75a8c = () => interopDefault(__webpack_require__.e(/* import() | pages/singer/_id */ 24).then(__webpack_require__.bind(null, 304)));
 
-const _48d90641 = () => interopDefault(__webpack_require__.e(/* import() | pages/song/_id */ 27).then(__webpack_require__.bind(null, 307)));
+const _48d90641 = () => interopDefault(__webpack_require__.e(/* import() | pages/song/_id */ 25).then(__webpack_require__.bind(null, 305)));
 
-const _b66f42b6 = () => interopDefault(__webpack_require__.e(/* import() | pages/_p */ 10).then(__webpack_require__.bind(null, 308)));
+const _b66f42b6 = () => interopDefault(__webpack_require__.e(/* import() | pages/_p */ 8).then(__webpack_require__.bind(null, 306)));
 
 const emptyFn = () => {};
 
@@ -11360,10 +11360,6 @@ const routerOptions = {
     path: "/findpassword",
     component: _ff50640c,
     name: "findpassword"
-  }, {
-    path: "/inspire",
-    component: _ac39ad54,
-    name: "inspire"
   }, {
     path: "/login",
     component: _a7350d06,
@@ -11416,6 +11412,10 @@ const routerOptions = {
       component: _7e1ded50,
       name: "search-keyword-page"
     }]
+  }, {
+    path: "/share/:id?",
+    component: _b0570922,
+    name: "share-id"
   }, {
     path: "/singer/:id?",
     component: _84a75a8c,
@@ -13144,7 +13144,7 @@ var searchvue_type_template_id_88efd4bc_scoped_true_staticRenderFns = []
 // CONCATENATED MODULE: ./layouts/search.vue?vue&type=template&id=88efd4bc&scoped=true&
 
 // EXTERNAL MODULE: ./components/SearchTool/index.vue + 4 modules
-var SearchTool = __webpack_require__(55);
+var SearchTool = __webpack_require__(56);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/search.vue?vue&type=script&lang=js&
 //
@@ -13195,7 +13195,7 @@ var search_component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var search = (search_component.exports);
 
 /* nuxt-component-imports */
-installComponents(search_component, {SearchTool: __webpack_require__(55).default})
+installComponents(search_component, {SearchTool: __webpack_require__(56).default})
 
 // CONCATENATED MODULE: ./.nuxt/App.js
 
@@ -13515,20 +13515,18 @@ function mergeProperty(storeModule, moduleData, property) {
 // CONCATENATED MODULE: ./.nuxt/components/plugin.js
 
 const components = {
-  Logo: () => __webpack_require__.e(/* import() | components/logo */ 5).then(__webpack_require__.bind(null, 311)).then(c => c.default || c),
-  VuetifyLogo: () => __webpack_require__.e(/* import() | components/vuetify-logo */ 9).then(__webpack_require__.bind(null, 312)).then(c => c.default || c),
+  Clock: () => __webpack_require__.e(/* import() | components/clock */ 1).then(__webpack_require__.bind(null, 307)).then(c => c.default || c),
   Clicaptcha: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 105)).then(c => c.default || c),
-  Clock: () => __webpack_require__.e(/* import() | components/clock */ 1).then(__webpack_require__.bind(null, 309)).then(c => c.default || c),
   EmoticonBox: () => __webpack_require__.e(/* import() | components/emoticon-box */ 2).then(__webpack_require__.bind(null, 253)).then(c => c.default || c),
   EmoticonTextarea: () => __webpack_require__.e(/* import() | components/emoticon-textarea */ 3).then(__webpack_require__.bind(null, 254)).then(c => c.default || c),
   ErrorMessageEMSG: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 104)).then(c => c.default || c),
   ErrorMessage: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 102)).then(c => c.default || c),
   FloatButtonGroup: () => __webpack_require__.e(/* import() | components/float-button-group */ 4).then(__webpack_require__.bind(null, 220)).then(c => c.default || c),
-  MusicPlayer: () => __webpack_require__.e(/* import() | components/music-player */ 6).then(__webpack_require__.bind(null, 252)).then(c => c.default || c),
-  QPagination: () => __webpack_require__.e(/* import() | components/qpagination */ 7).then(__webpack_require__.bind(null, 230)).then(c => c.default || c),
-  SearchTool: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 55)).then(c => c.default || c),
+  MusicPlayer: () => __webpack_require__.e(/* import() | components/music-player */ 5).then(__webpack_require__.bind(null, 239)).then(c => c.default || c),
+  QPagination: () => __webpack_require__.e(/* import() | components/qpagination */ 6).then(__webpack_require__.bind(null, 230)).then(c => c.default || c),
+  SearchTool: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 56)).then(c => c.default || c),
   UserBar: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 65)).then(c => c.default || c),
-  Utils: () => __webpack_require__.e(/* import() | components/utils */ 8).then(__webpack_require__.bind(null, 266)).then(c => c.default || c)
+  Utils: () => __webpack_require__.e(/* import() | components/utils */ 7).then(__webpack_require__.bind(null, 266)).then(c => c.default || c)
 };
 
 for (const name in components) {

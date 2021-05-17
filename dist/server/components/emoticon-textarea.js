@@ -1,7 +1,7 @@
 exports.ids = [3];
 exports.modules = {
 
-/***/ 237:
+/***/ 238:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26,7 +26,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/EmoticonTextarea/index.vue?vue&type=template&id=68b4ea30&scoped=true&
 
 // EXTERNAL MODULE: ./assets/emotionList.js
-var emotionList = __webpack_require__(237);
+var emotionList = __webpack_require__(238);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/EmoticonTextarea/index.vue?vue&type=script&lang=js&
 //
