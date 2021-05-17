@@ -13515,8 +13515,8 @@ function mergeProperty(storeModule, moduleData, property) {
 // CONCATENATED MODULE: ./.nuxt/components/plugin.js
 
 const components = {
-  Clock: () => __webpack_require__.e(/* import() | components/clock */ 1).then(__webpack_require__.bind(null, 309)).then(c => c.default || c),
   Clicaptcha: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 105)).then(c => c.default || c),
+  Clock: () => __webpack_require__.e(/* import() | components/clock */ 1).then(__webpack_require__.bind(null, 309)).then(c => c.default || c),
   EmoticonBox: () => __webpack_require__.e(/* import() | components/emoticon-box */ 2).then(__webpack_require__.bind(null, 253)).then(c => c.default || c),
   EmoticonTextarea: () => __webpack_require__.e(/* import() | components/emoticon-textarea */ 3).then(__webpack_require__.bind(null, 254)).then(c => c.default || c),
   ErrorMessageEMSG: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 104)).then(c => c.default || c),
